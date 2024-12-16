@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
 .image-container {
     position: relative; 
     width: 100%;
@@ -24,4 +32,33 @@
 .secondtitle{
     margin-top: 120px;
     margin-left: 100px;
+}
+.cardaboutus{
+    position: absolute;
+    left: 0;
+    width: 320px;
+    height: 400px;
+    background-color: rgb(107, 5, 5);
+    border-radius: 0px 20px 20px 0px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.footer{
+    background-color: rgb(107, 5, 5);
+    margin-top: 550px;
+    height: 200px;
+    width: 1400px;
+    padding: 20px;
+    margin-left: -20;
+}
+.aboutus{
+    display: flex;
+    flex-direction: row;
+}
+.textaboutus{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: 30px;
 }
