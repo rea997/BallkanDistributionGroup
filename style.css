@@ -1,3 +1,4 @@
+
 body, html{
     margin: 0px;
     padding: 0px;
@@ -12,7 +13,7 @@ body, html{
     position: absolute; 
     top: 20px; 
     left: 30px; 
-    padding: 10px; 
+ 
 }
 .links{
     margin-left: 600px;
@@ -46,6 +47,7 @@ body, html{
     background-color: rgb(107, 5, 5);
     height: 200px;
     width: 1400px;
+    width: 100%;
     padding: 20px;
 }
 .aboutus{
@@ -60,8 +62,10 @@ body, html{
     margin-top: 30px;
 }
 .cardcontactus{
+    margin-left: auto;
     position: absolute;
-    left: 0;
+    top: 40;
+    right: 0;
     width: 380px;
     height: 480px;
     background-color: rgb(107, 5, 5);
@@ -69,7 +73,8 @@ body, html{
     padding: 20px;
     padding-right: 0px;
     margin-top: 30px;
-    margin-left: 930px;
+    margin-left: 1000px;
+    margin-right: -160px;
 }
 .contactus{
     display: flex;
@@ -77,4 +82,8 @@ body, html{
 }
 .textcontactus{
     margin: 40px;
+    margin-left: ;
+}
+.navlinks{
+    color: white;
 }
