@@ -1,5 +1,3 @@
-
-
 body, html{
     margin: 0px;
     padding: 0px;
@@ -74,7 +72,8 @@ body, html{
     padding: 20px;
     padding-right: 0px;
     margin-top: 30px;
-    margin-left: 1000px;
+
+    margin-right: -230px;
 }
 .contactus{
     display: flex;
