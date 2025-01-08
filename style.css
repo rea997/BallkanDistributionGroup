@@ -1,3 +1,4 @@
+
 body, html{
     margin: 0px;
     padding: 0px;
@@ -31,16 +32,17 @@ body, html{
     margin-left: 100px;
 }
 .cardaboutus{
+    margin-left: auto;
     position: absolute;
-    left: 0;
+    top: 40;
+    right: 0;
     width: 380px;
     height: 480px;
     background-color: rgb(107, 5, 5);
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 20px 0px 0px 20px;
     padding: 20px;
-    padding-left: 0px;
+    padding-right: 0px;
     margin-top: 30px;
-    margin-left: -30px;
 }
 .footer{
     background-color: rgb(107, 5, 5);
@@ -57,7 +59,8 @@ body, html{
 .textaboutus{
     display: flex;
     flex-direction: column;
-    margin-left: 400px;
+    margin-left: 20px;
+    margin-right: 30px;
     margin-top: 30px;
 }
 .cardcontactus{
@@ -72,8 +75,6 @@ body, html{
     padding: 20px;
     padding-right: 0px;
     margin-top: 30px;
-
-    margin-right: -230px;
 }
 .contactus{
     display: flex;
