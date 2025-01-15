@@ -10,10 +10,10 @@
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <div class="image-container">
-        <img style="height: 930px; width: 100%; opacity: 0.7;" src="backgroundright.png" alt="">
+        <img style="height: 100%; width: 100%; opacity: 0.7;" src="backgroundright.png" alt="">
         <div class="overlay-text">
-            <nav style="width: 1250px; margin-left: 10px; height: 80px; border-radius: 20px;" class="navbar navbar-expand-lg bg-body-tertiary">
-                <div style="background-color: gray; height: 80px; border-radius: 20px;" class="container-fluid navvvigation">
+            <nav style="width: 1250px; margin-left: 10px; height: 80px; border-radius: 20px; position: fixed; top: 5;" class="navbar navbar-expand-lg bg-body-tertiary">
+                <div style="background-color: gray; height: 80px; border-radius: 20px; " class="container-fluid navvvigation">
                   <a class="navbar-brand" href="#"><img style="height: 120px; padding: 0px;" src="/bdg-removebg-preview (1).png" alt=""></a>
                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                    <span class="navbar-toggler-icon"></span>
@@ -28,17 +28,17 @@
                   </div>
                 </div>
               </nav>
-              <table>
+              <table style="margin-left: 127px;">
                 <tr class="firstrow">
                     <td>
-                        <a href=" https://www.thebahlsenfamily.com/int/"><div class="brandcard">
+                        <a href=" https://www.thebahlsenfamily.com/int/" class="link-offset-2 link-underline link-underline-opacity-0"><div class="brandcard">
                             <img class="image" style="width: 200px; height: 200px; border-radius: 20px;" src="data:image/png;base64,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" alt="">
                             <p style="color: white; text-align: center; margin-top: 30px;"> <strong> The Bahlsen Family </strong></p>
                         </div></a>
                         
                     </td>
                     <td>
-                        <a href="https://sunrice.de/en/frontpage/">
+                        <a href="https://sunrice.de/en/frontpage/" class="link-offset-2 link-underline link-underline-opacity-0">
                             <div class="brandcardd">
                                 <img class="image" style="width: 200px; height: 200px; border-radius: 20px; background-color: white;" src="png-transparent-rubezahl-schokoladen-gmbh-chocolate-sun-rice-food-chocolate-food-text-orange-removebg-preview.png" alt="">
                                 <p style="color: white; text-align: center; margin-top: 30px;"> <strong> Sun Rice </strong></p>
@@ -46,13 +46,13 @@
                         </a>
                     </td>
                     <td>
-                        <a href="https://www.drogheria.com/"><div class="brandcard">
+                        <a href="https://www.drogheria.com/" class="link-offset-2 link-underline link-underline-opacity-0"><div class="brandcard">
                             <img class="image" style="width: 200px; height: 200px; border-radius: 20px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9LknUh3kON_LOMwvWnj-BaYRAyJSkCceqeg&s" alt="">
                             <p style="color: white; text-align: center; margin-top: 30px;"> <strong>  La Drogheria</strong></p>
                         </div></a>
                     </td>
                     <td>
-                        <a href="https://sunyan.lt/">
+                        <a href="https://sunyan.lt/" class="link-offset-2 link-underline link-underline-opacity-0">
                             <div class="brandcardd">
                                 <img class="image" style="width: 200px; height: 200px; border-radius: 20px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyd9-jfMKob2tEXqYA0y4VwquhG8qZqs-SIw&s" alt="">
                                 <p style="color: white; text-align: center; margin-top: 30px;"> <strong>  Sun Yan</strong></p>
@@ -62,7 +62,7 @@
                 </tr>
                 <tr class="secondrow">
                     <td>
-                        <a href="https://www.dolcipreziosi.it/">
+                        <a href="https://www.dolcipreziosi.it/" class="link-offset-2 link-underline link-underline-opacity-0">
                             <div class="brandcardd">
                                 <img class="image" style="width: 200px; height: 200px; border-radius: 20px;" src="/dolcipreziozi.PNG" alt="">
                                 <p style="color: white; text-align: center; margin-top: 30px;"> <strong> Dolci Preziozi </strong></p>
@@ -70,7 +70,7 @@
                         </a>
                     </td>
                     <td>
-                        <a href="https://www.cerealitalia.it/">
+                        <a href="https://www.cerealitalia.it/" class="link-offset-2 link-underline link-underline-opacity-0">
                             <div class="brandcard">
                                 <img class="image" style="width: 200px; height: 200px; border-radius: 20px; background-color: white;" src="cereaitalia.PNG" alt="">
                                 <p style="color: white; text-align: center; margin-top: 30px;"> <strong> CereaItalia</strong></p>
@@ -78,7 +78,7 @@
                         </a>
                     </td>
                     <td>
-                        <a href="https://oleariadesantisspa.it/en/">
+                        <a href="https://oleariadesantisspa.it/en/" class="link-offset-2 link-underline link-underline-opacity-0">
                             <div class="brandcardd">
                                 <img class="image" style="width: 200px; height: 200px; border-radius: 20px;" src="https://www.sicilfood.eu/new/wp-content/uploads/2016/07/de_santis_logo_1.jpg" alt="">
                                 <p style="color: white; text-align: center; margin-top: 30px;"> <strong>  Desantis</strong></p>
@@ -86,7 +86,7 @@
                         </a>
                     </td>
                     <td>
-                        <div class="brandcard">
+                        <div class="brandcard" class="link-offset-2 link-underline link-underline-opacity-0">
                             <img class="image" style="width: 200px; height: 200px; border-radius: 20px;" src="maestro.PNG" alt="">
                             <p style="color: white; text-align: center; margin-top: 30px;"> <strong> Maestro Champignons</strong></p>
                         </div>
@@ -99,7 +99,7 @@
             </div>
         </div>
     </div>
-    <div style="margin-top: 0px;" class="footer">
+    <div style="margin-top: 30px;" class="footer">
         <h5 style="color: white; margin: 20px;">Balkan Distribution Group</h5>
         <p style="color: white; margin: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate esse quibusdam tenetur veritatis autem itaque magni facere. Consectetur, facilis corporis.</p>
       </div>
