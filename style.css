@@ -56,7 +56,7 @@ body, html{
 .aboutus{
     display: flex;
     flex-direction: row;
-    margin-top: 90px;
+    margin-top: 30px;
 }
 .textaboutus{
     display: flex;
